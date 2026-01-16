@@ -1,0 +1,12 @@
+take an array with 10 different marks and print all the marks and a msg with pass and fail e.g. 30"pass", 12'fail'
+
+
+
+find out the sum of all the elements inside an array using for loop
+
+
+
+difference between mao filter  and reduce 
+map; return same length as original array
+filter; returns a subset of the original arrat
+reduce; reduces the original array into a single value and returns into
