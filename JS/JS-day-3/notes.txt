@@ -1,0 +1,1 @@
+remove all negative nubers from an array
