@@ -1,0 +1,5 @@
+return statement 
+    returns only once
+    will break entire block and comes outside of the block
+    while the code execution hits the return statement it will directly eradicate the execution of the rest of the codes
+    
