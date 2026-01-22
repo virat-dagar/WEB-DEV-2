@@ -15,11 +15,12 @@ console.log(res)
 /*
 
 let arr = [1,2,3,4,5,6,5,4,3,2,1];
+let arr1 = [...arr];
 let isPalindrome = true;
 
-while (arr.length > 1) {
-  let a = arr.shift();
-  let b = arr.pop();
+while (arr1.length > 1) {
+  let a = arr1.shift();
+  let b = arr1.pop();
 
   if (a !== b) {
     isPalindrome = false;
@@ -35,19 +36,45 @@ if (isPalindrome) {
 
 */
 
-let arr = [1,2,3,4,5,6,5,4,3,2,1];
+// let arr = [1,2,3,4,5,6,5,4,3,2,1];
 
-let i = 0;
-let j = arr.length - 1;
-let isPalindrome = true;
+// let i = 0;
+// let j = arr.length - 1;
+// let isPalindrome = true;
 
-while (i < j) {
-  if (arr[i] !== arr[j]) {
-    isPalindrome = false;
-    break;
-  }
-  i++;
-  j--;
+// while (i < j) {
+//   if (arr[i] !== arr[j]) {
+//     isPalindrome = false;
+//     break;
+//   }
+//   i++;
+//   j--;
+// }
+
+// console.log(isPalindrome ? "is a palindrome" : "not a palindrome");
+
+function palindrome(){
+let arr = [1,2,3,2,1]
+let original = []; //1,2,3,2,1
+let reverse=[]  //1,2,3,2,1
+
+//Copy all the elements of given array to an original array
+
+for(let i=0;i<arr.length;i++){
+    original.push(arr[i]);
+    // console.log(original);
 }
 
-console.log(isPalindrome ? "is a palindrome" : "not a palindrome");
+//Reverse the given array
+               
+while(arr.length>0){
+    reverse.push(arr.pop())
+}
+for(i=0;i<original.length;i++){
+    if(original[i] !== reverse[i]){
+        return"Not a palindrome"
+    }
+}
+        return"Not a palindrome";
+}
+console.log(palindrome());
