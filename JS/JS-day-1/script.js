@@ -74,3 +74,4 @@ sample(demo)
 // demo() instead of callback())
 //call back define -->
 // in call back function if we pass a function as an argument inside another function its called callback function
+//we can pass a function inside anothe function as an argument. 
