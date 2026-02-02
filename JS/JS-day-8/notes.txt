@@ -1,0 +1,17 @@
+task 1
+    select section with id profie
+    change background to #f5f5f5
+    add padding 15px
+    centre the text
+
+task 2
+    highlight important text
+    select all element with class importantchange text color to red
+    increase font size
+    print total count in console
+
+task 3
+    select all <p> tags
+    make even paragraph blue
+    make odd paragraphs red 
+    make last paragraph bold
