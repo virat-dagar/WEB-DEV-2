@@ -1,0 +1,27 @@
+/*console.log("a");
+setTimeout(()=>{
+    console.log("b")
+},5000)
+setTimeout(()=>{
+    console.log("c")
+},3000)
+setTimeout(()=>{
+    console.log("d")
+},2000)
+console.log("e")*/
+/*Callback hell-to perform multiple asyn logicin out code we have to take*/
+setTimeout(()=>{
+    console.log("a")
+    setTimeout(()=>{
+        console.log("b")
+        setTimeout(()=>{
+            console.log("c")
+            setTimeout(()=>{
+                console.log("d")
+                setTimeout(()=>{
+                    console.log("e")
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)
